@@ -9,7 +9,7 @@
 
   <!-- OpenDesireProject -->
   <project path="bionic" name="OpenDesireProject/android_bionic" revision="cm-12.1" />
-  <project path="build" name="OpenDesireProject/android_build" revision="cm-12.1">
+  <project path="build" name="OpenDesireProject/android_build" revision="cm-12.1-old">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="system/core" name="OpenDesireProject/android_system_core" revision="cm-12.1" />
