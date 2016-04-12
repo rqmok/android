@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Copy of local manifest -->
+    <project path="local_manifest" name="rqmok/android" revision="cm-13.0" />
+
     <!-- Stlport -->
     <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0"/>
 
