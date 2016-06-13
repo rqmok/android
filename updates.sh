@@ -16,8 +16,12 @@ cherries+=(123032)
 # policy: Show a simple dialog about optimizing apps
 cherries+=(131627)
 
-if [ -z $cherries ]; then
-    echo -e "Nothing to cherry-pick!"
+# SystemServer: Do not start Atlas Service on lowram devices.
+cherries+=(148998)
+
+if [ -z $cherries ]
+then
+	echo "Nothing to cherry-pick!"
 else
     ${android}/build/tools/repopick.py -b -f ${cherries[@]}
 fi
