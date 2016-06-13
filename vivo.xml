@@ -21,9 +21,9 @@
   <project path="local_manifest" name="rqmok/android" revision="cm-12.1" />
 
   <!-- Hardware -->
-  <project name="rqmok/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
-  <project name="rqmok/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
-  <project name="rqmok/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
+  <project name="OpenDesireProject/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
+  <project name="OpenDesireProject/android_hardware_qcom_media-legacy" path="hardware/qcom/media-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
+  <project name="OpenDesireProject/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.1-legacy-7x30" />
   
   <!-- Device Configurations -->
   <project name="rqmok/android_device_htc_vivo" path="device/htc/vivo" revision="cm-12.1" />
