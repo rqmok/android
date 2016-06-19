@@ -9,6 +9,10 @@
     <project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-6.0" />
     <project name="CyanogenMod/android_external_busybox" path="external/busybox" revision="cm-13.0" />
 
+    <!-- OpenDesireProject -->
+    <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+    <project path="frameworks/opt/telephony" name="OpenDesireProject/android_frameworks_opt_telephony" revision="cm-13.0" />
+
     <!-- Stlport -->
     <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0"/>
 
