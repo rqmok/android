@@ -11,7 +11,7 @@
 
     <!-- OpenDesireProject -->
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-    <project path="frameworks/opt/telephony" name="rqmok/android_frameworks_opt_telephony" revision="cm-13.0" />
+    <project path="frameworks/opt/telephony" name="OpenDesireProject/android_frameworks_opt_telephony" revision="cm-13.0" />
 
     <!-- Stlport -->
     <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0"/>
