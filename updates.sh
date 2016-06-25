@@ -19,6 +19,18 @@ cherries+=(131627)
 # SystemServer: Do not start Atlas Service on lowram devices.
 cherries+=(148998)
 
+# Implement UICC TLV Data decoding.
+cherries+=(114381)
+
+# Skip unknown tags instead of aborting when parsing UICC TLV data
+cherries+=(114382)
+
+# UiccController: add back registerForOn
+cherries+=(114805)
+
+# UiccController: use registerForAvailable only when persist.radio.apm_sim_not_pwdn is enabled
+cherries+=(114806)
+
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
