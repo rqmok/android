@@ -28,9 +28,6 @@ cherries+=(123032)
 # policy: Show a simple dialog about optimizing apps
 cherries+=(131627)
 
-# SystemServer: Do not start Atlas Service on lowram devices.
-cherries+=(148998)
-
 if [ -z $cherries ]
 then
 	echo "Nothing to cherry-pick!"
